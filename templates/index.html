@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" ng-app="APP">
+	<head>
+		<meta charset="UTF-8">
+		<title>Angular App</title>
+		<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0-rc2/css/bootstrap.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <link href="{{ static_url('css/style.css') }}" rel="stylesheet" type="text/css">
+
+	</head>
+	<body>
+	<div class="container">
+        It will be here
+		<div class="main">
+			<div ng-controller="contr">
+				<div ng-view></div>
+			</div> 		
+		</div>
+	</div>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.5/angular.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<!--		<script src="/app/js/controller.js"></script>-->
+        <script src="{{ static_url('js/controller.js') }}"></script>
+		
+		
+	</body>
+</html>
